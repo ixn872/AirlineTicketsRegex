@@ -40,7 +40,7 @@ for i in range(len(Reason)):
     if re.search(r"\d\.\.",Reason[i]):
         Reason[i]=re.sub(r"\d\.\."," ",Reason[i])
     elif re.search(r"\N\b", Reason[i]):
-        print "YOOOOO"
+        print "Else"
     print Reason[i],i
 
 
